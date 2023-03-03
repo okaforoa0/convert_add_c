@@ -1,0 +1,14 @@
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+        int a=0;
+
+        if (argc <= 5)
+        {
+        for (int i=1; i<argc;i++){
+        a=a+atoi(argv[i]);
+        }
+                }
+        return a;
+}
